@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<tallies>
+
+  <!-- center of detector = 19.05, 30.48, 29.845 -->
+  <mesh id="1">
+    <type>rectangular</type>
+    <lower_left>19.0475 29.98 29.345</lower_left>
+    <width>0.005 1 1.</width>
+    <dimension>1 1 1</dimension>
+  </mesh>
+
+  <tally id="1">
+    <filter type="mesh" bins="1" />
+    <scores>flux</scores>
+  </tally>
+
+</tallies>

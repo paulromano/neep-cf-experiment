@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<settings>
+
+  <fixed_source>
+    <batches>15</batches>
+    <particles>10000</particles>
+  </fixed_source>
+    
+  <!-- Fission source with Watt spectrum for Cf-252 -->
+  <source>
+    <space type="point" parameters="24.13 30.48 30.48" />
+    <energy type="watt" parameters="1.025 2.926" />
+  </source>
+
+</settings>

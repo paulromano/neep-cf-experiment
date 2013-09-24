@@ -1,0 +1,7 @@
+# emacs temporaries
+*~
+
+# OpenMC output
+*.h5
+*.binary
+*.out
