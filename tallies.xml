@@ -8,9 +8,107 @@
     <width>0.005 1 1.</width>
     <dimension>1 1 1</dimension>
   </mesh>
-
   <tally id="1">
     <filter type="mesh" bins="1" />
+    <scores>flux</scores>
+  </tally>
+
+  <mesh id="2">
+    <type>rectangular</type>
+    <lower_left>19.0475 27.98 29.345</lower_left>
+    <width>0.005 1 1.</width>
+    <dimension>1 1 1</dimension>
+  </mesh>
+  <tally id="2">
+    <filter type="mesh" bins="2" />
+    <scores>flux</scores>
+  </tally>
+
+  <mesh id="3">
+    <type>rectangular</type>
+    <lower_left>19.0475 25.98 29.345</lower_left>
+    <width>0.005 1 1.</width>
+    <dimension>1 1 1</dimension>
+  </mesh>
+  <tally id="3">
+    <filter type="mesh" bins="3" />
+    <scores>flux</scores>
+  </tally>
+
+  <mesh id="4">
+    <type>rectangular</type>
+    <lower_left>19.0475 23.98 29.345</lower_left>
+    <width>0.005 1 1.</width>
+    <dimension>1 1 1</dimension>
+  </mesh>
+  <tally id="4">
+    <filter type="mesh" bins="4" />
+    <scores>flux</scores>
+  </tally>
+
+  <mesh id="5">
+    <type>rectangular</type>
+    <lower_left>19.0475 21.98 29.345</lower_left>
+    <width>0.005 1 1.</width>
+    <dimension>1 1 1</dimension>
+  </mesh>
+  <tally id="5">
+    <filter type="mesh" bins="5" />
+    <scores>flux</scores>
+  </tally>
+
+  <mesh id="6">
+    <type>rectangular</type>
+    <lower_left>19.0475 19.98 29.345</lower_left>
+    <width>0.005 1 1.</width>
+    <dimension>1 1 1</dimension>
+  </mesh>
+  <tally id="6">
+    <filter type="mesh" bins="6" />
+    <scores>flux</scores>
+  </tally>
+
+  <mesh id="7">
+    <type>rectangular</type>
+    <lower_left>19.0475 17.98 29.345</lower_left>
+    <width>0.005 1 1.</width>
+    <dimension>1 1 1</dimension>
+  </mesh>
+  <tally id="7">
+    <filter type="mesh" bins="7" />
+    <scores>flux</scores>
+  </tally>
+
+  <mesh id="8">
+    <type>rectangular</type>
+    <lower_left>19.0475 15.98 29.345</lower_left>
+    <width>0.005 1 1.</width>
+    <dimension>1 1 1</dimension>
+  </mesh>
+  <tally id="8">
+    <filter type="mesh" bins="8" />
+    <scores>flux</scores>
+  </tally>
+
+  <mesh id="9">
+    <type>rectangular</type>
+    <lower_left>19.0475 13.98 29.345</lower_left>
+    <width>0.005 1 1.</width>
+    <dimension>1 1 1</dimension>
+  </mesh>
+  <tally id="9">
+    <filter type="mesh" bins="9" />
+    <scores>flux</scores>
+  </tally>
+
+  <mesh id="10">
+    <type>rectangular</type>
+    <lower_left>19.0475 11.98 29.345</lower_left>
+    <width>0.005 1 1.</width>
+    <dimension>1 1 1</dimension>
+  </mesh>
+  <tally id="10">
+    <filter type="mesh" bins="10" />
     <scores>flux</scores>
   </tally>
 

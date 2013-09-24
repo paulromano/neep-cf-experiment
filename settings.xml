@@ -2,7 +2,7 @@
 <settings>
 
   <fixed_source>
-    <batches>15</batches>
+    <batches>100</batches>
     <particles>10000</particles>
   </fixed_source>
     
