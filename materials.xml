@@ -1,15 +1,16 @@
 <?xml version="1.0"?>
 <materials>
 
-  <default_xs>70c</default_xs>
+  <!-- Use JEFF cross sections -->
+  <default_xs>03c</default_xs>
 
   <!-- Polyethylene -->
   <material id="1">
     <density value="0.92" units="g/cm3" />
     <nuclide name="H-1"   ao="4.0" />
     <nuclide name="C-Nat" ao="2.0" />
-    <sab name="poly"  xs="10t" />
-    <!-- <sab name="pol00" xs="32t" /> -->
+    <sab name="pol00" xs="32t" />
+    <!-- <sab name="poly"  xs="10t" /> -->
   </material>
 
   <!-- Stainless steel -->
@@ -23,12 +24,6 @@
     <element name="Ni" ao="8.5600e-03" />
     <element name="Cr" ao="1.6725e-02" />
     <element name="Fe" ao="5.9560e-02" />
-  </material>
-
-  <!-- Boron detector -->
-  <material id="3">
-    <density value="1.0" units="g/cc" />
-    <element name="B" ao="1.0" />
   </material>
 
 </materials>
